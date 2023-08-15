@@ -1,0 +1,270 @@
+/************************/
+/*  RESPONSIVE DESIGN  */
+/***********************/
+
+/*   1200px Smallest Desktop  */
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 45%;
+  }
+
+  body {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .computer-think {
+    margin-top: 14rem;
+  }
+}
+
+@media (max-width: 912px) {
+  html {
+    font-size: 42%;
+  }
+  body {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .computer-think {
+    margin-top: 16rem;
+  }
+}
+
+@media (max-width: 820px) {
+  html {
+    font-size: 36%;
+  }
+
+  body {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+
+  .computer-think {
+    margin-top: 18rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .headline {
+    display: grid;
+    grid-template-rows: 2fr 2fr;
+  }
+
+  body {
+    position: relative;
+    margin-bottom: 10rem;
+    margin-top: 20rem;
+  }
+
+  .computer-think {
+    margin-top: 18rem;
+  }
+
+  .game-controller {
+    display: none;
+  }
+
+  .btn-new-game {
+    position: absolute;
+    top: 2rem;
+    margin: 0 8rem;
+  }
+
+  .game-headline {
+    margin-left: 34rem;
+  }
+
+  .between-number {
+    margin: 0 8rem;
+  }
+
+  .difficult-level {
+    margin: 0 8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .btn-select {
+    margin-right: 4rem;
+  }
+
+  body {
+    margin-top: 20rem;
+    margin-bottom: 10rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .difficult-level-headline {
+    display: block;
+  }
+
+  .difficult-level {
+    margin-left: 8rem;
+    margin-top: 10rem;
+  }
+
+  html {
+    font-size: 36%;
+  }
+
+  .level-text {
+    margin-left: 8rem;
+    margin-top: 4rem;
+  }
+
+  .game-event {
+    gap: 0rem;
+  }
+
+  .headline {
+    display: block;
+  }
+
+  .game-headline {
+    margin-left: 8rem;
+    font-size: 6rem;
+  }
+
+  .btn-new-game {
+    position: absolute;
+    top: 8rem;
+    margin: 6rem 8rem;
+  }
+
+  .between-number {
+    margin: 2rem 8rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .game-event {
+    grid-template-columns: 1fr;
+  }
+
+  .user-guessing {
+    max-width: 16rem;
+    height: 16rem;
+    font-size: 6rem;
+    margin-left: 8rem;
+  }
+
+  .btn-guess {
+    padding: 1.4rem 0;
+    font-size: 2.6rem;
+    width: 16rem;
+    margin-left: 8rem;
+  }
+
+  ion-icon {
+    display: none;
+  }
+
+  .computer-think {
+    display: block;
+  }
+
+  .computer-gives-number {
+    width: 16rem;
+    height: 16rem;
+    margin-left: 8rem;
+  }
+
+  .computer-guessing {
+    font-size: 2.4rem;
+    margin-bottom: 4rem;
+    margin-left: 8rem;
+  }
+
+  .right-text-computer-guessing {
+    margin-top: 4rem;
+    margin-left: 8rem;
+  }
+
+  .game-event {
+    display: flex;
+  }
+}
+
+@media (max-width: 510px) {
+  .difficult-level {
+    font-size: 2.4rem;
+  }
+
+  .game-headline {
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 34%;
+  }
+
+  .right {
+    margin-left: 16rem;
+  }
+
+  .level-text {
+    height: 5.2rem;
+    font-size: 1.8rem;
+  }
+
+  .btn-select {
+    height: 5.2rem;
+    font-size: 2rem;
+  }
+
+  .btn-new-game {
+    width: 14rem;
+    font-size: 2rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 415px) {
+  html {
+    font-size: 32%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 30%;
+  }
+}
+@media (max-width: 366px) {
+  html {
+    font-size: 28%;
+  }
+
+  .level-text {
+    height: 5.2rem;
+  }
+
+  .btn-select {
+    height: 5.2rem;
+    font-size: 2rem;
+  }
+
+  .btn-new-game {
+    width: 14rem;
+    font-size: 1.8rem;
+    height: 5rem;
+  }
+}

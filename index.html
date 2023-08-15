@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <title>Guessing Number Game</title>
+  </head>
+  <body>
+    <header>
+      <div class="headline">
+        <img
+          class="game-controller"
+          src="game-controller.png"
+          alt="game controller"
+        />
+        <button class="btn-new-game">New Game</button>
+        <h1 class="game-headline">Guessing Number Game</h1>
+        <p class="between-number">Between 1 to 20</p>
+      </div>
+    </header>
+    <section>
+      <div class="difficult-level-headline">
+        <h3 class="difficult-level">
+          Please Choose The Difficult Level (Hard, Easy, Normal)
+        </h3>
+        <input class="level-text" type="text" name="level-texting" />
+        <button class="btn-select">Select</button>
+      </div>
+      <div class="computer-think">
+        <p class="computer-guessing">Computer Guessing</p>
+        <ion-icon name="arrow-forward-outline"></ion-icon>
+        <div class="computer-gives-number">?</div>
+        <ion-icon name="arrow-back-outline"></ion-icon>
+        <p class="computer-guessing right-text-computer-guessing">
+          Computer Guessing
+        </p>
+      </div>
+      <section class="game-event">
+        <div class="left">
+          <input class="user-guessing" type="number" name="number-guess" />
+          <button class="btn-guess">Guess</button>
+        </div>
+        <div class="right">
+          <div class="suggestion-game">🤔 Start Guessing...</div>
+          <p class="chance">🤚 Chances: <span>0</span></p>
+          <p class="score-1">💯 Score: <span>0</span></p>
+          <p class="Highscore">🎖️ High Score: <span>0</span></p>
+        </div>
+      </section>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

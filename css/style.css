@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Raleway:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;700&family=Rubik+Wet+Paint&family=Rubik:wght@400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Press+Start+2P&family=Raleway:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;700&family=Rubik+Wet+Paint&display=swap");
+
+/*****************************/
+/*     GUESSING NUMBER GAME  */
+/*****************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #dee2e6;
+  max-width: 130rem;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  margin-top: 14rem;
+}
+
+/**************************/
+/*      LAYOUT            */
+/**************************/
+
+header {
+  margin-top: 2rem;
+}
+
+.game-controller {
+  max-width: 2.8%;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.difficult-level-headline {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.computer-think {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10rem;
+}
+
+.game-event {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14rem;
+}
+
+.left {
+  margin-top: 8rem;
+}
+
+.right {
+  margin-top: 8rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #545454;
+  margin-left: 22rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right span {
+  margin-left: 2rem;
+}
+
+/**************************/
+/*     ELEMENT STYLES     */
+/**************************/
+
+.btn-new-game {
+  border: none;
+  width: 12rem;
+  font-size: 1.8rem;
+  padding: 1rem 1rem;
+  border: 1px solid #545454;
+  background-color: #545454;
+  font-weight: 600;
+  color: #fff;
+  margin-right: 7.6rem;
+  cursor: pointer;
+}
+
+.game-headline {
+  font-size: 5.4rem;
+  margin-right: 9.2rem;
+  color: #004aad;
+}
+
+.between-number {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #545454;
+}
+
+.difficult-level {
+  font-size: 2.8rem;
+  color: #545454;
+}
+
+.level-text {
+  border: none;
+  width: 14rem;
+  height: 4rem;
+  padding-left: 2rem;
+  font-size: 2rem;
+  border: 1px solid #545454;
+}
+
+.btn-select {
+  border: none;
+  width: 10rem;
+  font-size: 1.8rem;
+  padding: 1rem 0rem;
+  border: 1px solid #545454;
+  background-color: #004aad;
+  font-weight: 600;
+  color: #fff;
+  margin-left: 6rem;
+  cursor: pointer;
+}
+
+.computer-guessing {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #545454;
+  margin-left: 8rem;
+}
+
+.right-text-computer-guessing {
+  margin-right: 8rem;
+}
+
+ion-icon {
+  font-size: 1.8rem;
+}
+
+.computer-gives-number {
+  width: 14rem;
+  height: 12rem;
+  border: 2.8px solid #545454;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.computer-gives-number {
+  font-size: 6rem;
+  font-family: "Press Start 2P", sans-serif;
+}
+
+.user-guessing {
+  margin-left: 10rem;
+  background: none;
+  border: none;
+  display: flex;
+  max-width: 12rem;
+  height: 12rem;
+  font-size: 3rem;
+  border: 2px solid #545454;
+  padding: 2rem;
+  color: #545454;
+}
+
+.btn-guess {
+  margin-top: 4rem;
+  margin-left: 10rem;
+  width: 12rem;
+  font-size: 2.2rem;
+  padding: 1rem 0;
+  border: 1px solid #545454;
+  background-color: #004aad;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+}
